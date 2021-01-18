@@ -1,0 +1,81 @@
+body
+{
+    margin: 0%;
+}
+main
+{
+    max-width: 100vh;
+    max-width: 100vw;
+}
+header
+{
+  height: 10vh;
+  background:whitesmoke;
+}
+footer
+{
+  height: 10vh;
+  color: black;
+  background: whitesmoke;
+}
+img
+{
+  display: block;
+  margin: auto;
+  height: 10vh;
+  width: auto;
+}
+.i1
+{
+    display: block;
+    margin: auto;
+    height: 10vh;
+    width: auto;
+  background-color:white;
+  padding:10px 10px 50px 10px;
+  border:1px solid #BFBFBF;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+}
+.i1:hover
+{
+    /* Para que se apliquen las dos tienes que ponerlas separadas por un espacio dentro de la misma propiedad:
+    transform:scale(1.3) rotate(-10deg);*/
+    transform:scale(1.3);
+    transform: rotate(-10deg);
+}
+div
+{
+    background-repeat:round;
+    background-image: url("../html/fondo.jpg");
+    height: 80vh;
+}
+table
+{
+  margin: 100px;
+    width: 100vh;
+}
+.u1
+{
+  display: table-row;
+}
+.s1
+{
+  display: table-cell;
+  box-shadow: 0px 10px 10px black;
+  height: 12,5px;
+  border-radius: 5px;
+  height: auto;
+  background: tomato;
+  width: max-content;
+}
+a
+{
+  color: white;
+  text-decoration: none;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+    nav
+    {
+      visibility: hidden;
+    }
+}

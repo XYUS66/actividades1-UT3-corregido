@@ -1,0 +1,50 @@
+body
+{
+  margin: 0%;
+}
+main
+{
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color:black;
+}
+header
+{
+  height: 10vh;
+  background:whitesmoke;
+}
+div
+{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  height: 80vh;
+}
+section
+{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+}
+article
+{
+    border-style: solid;
+    height: 15vh;
+}
+footer
+{
+  height: 10vh;
+  background: whitesmoke;
+}
+img.c1
+{
+  display: block;
+  margin: auto;
+  height: 10vh;
+  width: auto;
+}
+img
+{
+  width: 150px;
+  height: 150px;
+}

@@ -1,0 +1,135 @@
+body
+{
+  margin: 0%;
+}
+@font-face
+{
+  font-family: guay;
+  src: url(ChristmasRespite.otf);
+}
+main
+{
+    min-height: 100vh;
+    max-width: 100vw;
+}
+.texto
+{
+  color: black;
+}
+header
+{
+  height: 10vh;
+  background:whitesmoke;
+}
+footer
+{
+  height: 10vh;
+  background: whitesmoke;
+}
+section
+{
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  font-family: guay;
+}
+.u1
+{
+  display: table-row;
+}
+nav
+{
+  width: 99%;
+  display: table;
+  border-style: solid;
+}
+a
+{
+  color: white;
+  text-decoration: none;
+}
+.s1
+{
+  display: table-cell;
+  box-shadow: 0px 10px 10px black;
+  height: 12,5px;
+  border-radius: 5px;
+  height: auto;
+  background: tomato;
+  width: max-content;
+}
+.a1
+{
+  margin: 10px;
+  box-shadow: 0px 10px 10px black;
+  border-radius: 15px;
+  height: auto;
+  background: tomato;
+  width: max-content;
+  height: max-content;
+}
+img
+{
+  display: block;
+  margin: auto;
+  height: 10vh;
+  width: auto;
+}
+button
+{
+  color: white;
+  height: max-content;
+  width: max-content;
+  background: rgb(82, 136, 0);
+  border-radius: 15px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  color: white;
+  height: 60px;
+  width: max-content;
+  border-radius: 50% 50% 24% 76% / 0% 40% 60% 100% ;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(214,152,59,1) 35%, rgba(0,212,255,1) 100%);
+  width: 120px;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+  nav
+  {
+    visibility: hidden;
+  }
+
+
+}
